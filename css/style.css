@@ -1,0 +1,22 @@
+.main_logo{position: relative; width: 80px; height: 80px; }
+.main_logo a{position: absolute; width: 80px; height: 80px; background: url(../img/logo.png) center center no-repeat; background-size: auto 76%; }
+.main_logo a:hover{background-color: #222;}
+
+
+/*MENU PRINCIPAL*/
+.main_nav{width: auto; margin-top: 10px;}
+.main_nav li{float: left;}
+.main_nav a{float: left; padding: 12px 16px; color: #eee; font-weight: normal;}
+.main_nav a:hover{color: #fff; text-decoration: underline;}
+
+
+/*TEC CARACTERISITCAS*/
+.main_tec_item{padding: 15px 30px; margin-bottom: 30px; min-height: 50px;}
+.main_tec_item img{padding: 10px; width: 80%; margin: 0 10%; background: #eee; -webkit-border-radius: 60%; -moz-border-radius: 60%; border-radius: 60%; margin-bottom: 15px;}
+.main_tec_item h1{font-size: 1.4em; margin-bottom: 15px;}
+.main_tec_item .tagline{font-size: 1.0em;}
+
+.main_tec_item_profile{padding: 0px 30px; margin-bottom: 0px; min-height: 0px;}
+.main_tec_item_profile img{padding: 5px; width: 90%; margin: 0 10%; background: #eee; -webkit-border-radius: 80%; -moz-border-radius: 80%; border-radius: 80%; margin-bottom: 0px;}
+.main_tec_item_profile h1{font-size: 1.4em; margin-bottom: 15px;}
+.main_tec_item_profile .tagline{font-size: 1.0em;}

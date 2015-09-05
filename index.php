@@ -2,24 +2,29 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>WebCode - Rafael Barros</title>
+	<title>Rafael Barros | WebDeveloper</title>
 
 	<!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
 	<![endif]-->
 
-	<link rel="stylesheet" href="css/oocss.css" />
+	
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/boot.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+ <link rel="shortcut icon" href="img/faviconr.png"/>
 </head>
 <body>
-	<header class="container bg-gray">
+	<header class="container bg-black">
 		<div class="content">
-			<h1 class="main_logo">
-				<a title="" href="#index" >
-					WebCode - Rafael Barros
+			<h1 class="fl-left fontzero" >
+				<a title="" href="#index" class="radius">
+					Rafael Barros
 				</a> 
 			</h1>
 
-			<ul class="main_nav">
+			<ul class="main_nav fl-right">
 				<li><a title="About" href="#">About</a></li>
 				<li><a title="Work" href="#">Work</a></li>
 				<li><a title="Contact" href="#">Contact</a></li>
@@ -31,64 +36,68 @@
 	<!--CONTEUDO-->
 	<article class="container">
 		<div class="content">
-			<h1>Welcome</h1>
-			<h2>Hello, I'am Rafael a  Web Developer</h2>
-			
+			<h1 class="fontzero">Web Developer</h1>
+				<article class="box box-medium">
+					<h1 class="fontzero">Hi, I'm Rafael a Web Developer.</h1>
+					<p class="fontsize4">Hi, I'm Rafael a Web Developer.</p>
+				</article>
+				<article class="main_tec_item_profile box box-medium">
+					<h1 class="fontzero">Photo</h1>
+						<img src="img/profile2bw.png" alt="Profile" title="Profile">
+				</article>
 			<div class="clear"></div>
 		</div>
-	</article>
+	</article>	
+	<section>	
+		<div class="container bg-blue">
+			<div class="content">
+				<h1>Abilities</h1>
+				<article class="main_tec_item box box-small al-center radius">
+					<img src="img/html5b-01.png" alt="" title="">
+					<h1>html5</h1>
+				</article>
+				<article class=" main_tec_item box box-small al-center radius">
+					<img src="img/css3b-01.png" alt="" title="">
+					<h1>css3</h1>
+				</article>
+				<article class="main_tec_item box box-small al-center radius">
+					<img src="img/prog-js01b.png" alt="" title="">
+					<h1>javascript</h1>
+				</article>
+				<article class="main_tec_item box box-small al-center radius">
+					<img src="img/prog-php01b.png" alt="" title="">
+					<h1>php</h1>
+				</article>
+				<article class="main_tec_item box box-small al-center radius">
+					<img src="img/dbs-mysqlb.png" alt="" title="">
+					<h1>mysql</h1>
+				</article>
+				<article class="main_tec_item box box-small al-center radius">
+					<img src="img/gitb.png" alt="" title="">
+					<h1>git</h1>
+				</article>				
+				<article class="main_tec_item box box-small al-center radius">
+					<img src="img/os-linux_1b.png" alt="" title="">
+					<h1>linux</h1>
+				</article>
+				<article class="main_tec_item box box-small al-center radius">
+					<img src="img/os-win-04-dark.png" alt="" title="">
+					<h1>windows</h1>
+				</article>															
+				<div class="clear"></div>
+			</div>
+		</div>	
+	</section>
 
-	<article class="container bg-blue">
-		<div class="content">
-			<h1>Abilities</h1>
-			<h2>html</h2>
-			<h2>css</h2>
-			<h2>javascript</h2>
-			<h2>jquery</h2>
-			<h2>bootstrap</h2>
-			<h2>angularJs</h2>
-			<h2>php</h2>
-			<div class="clear"></div>
-		</div>
-	</article>
 
 	<!--CONTEUDO-->
 
 	<footer class="container bg-light">
 		<section class="content">
-			<h1 class="fontzero">Sobre WebCode</h1>
-
-			<nav class="main_nav">
-				<h1 class="title">Outros Links</h1>
-				<ul>
-					<li><a title="" href="#">link1</li>
-					<li><a title="" href="#">link2</li>
-					<li><a title="" href="#">link3</li>
-					<li><a title="" href="#">link4</li>
-				</ul>	
-			</nav>
-
-			<article class="main_social">
-				<h1 class="title">WebCode - Redes sociais:</h1>
-				<ul>
-					<li><a target="_blank" rel="nofollow" title="Facebook" href="#">Facebook</li>
-					<li><a target="_blank" rel="nofollow" title="Google" href="#">Google+</li>
-					<li><a target="_blank" rel="nofollow" title="Linkedin" href="#">Linkedin</li>
-					<li><a target="_blank" rel="nofollow" title="" href="Twitter">Twiter</li>
-				</ul>	
-			</article>
-
-			<article class="main_copy">
-				<h1 class="fontzero">Plataforma WebCode</h1>
-
-				<p><b>Email:</b><a title="Envie um e-mail" href="mailto:rafaelbarros.df@gmail.com">rafaelbarros.df@gmail.com</a></p>
-				<hr>
-				<p>&copy; - WebCode Rafael Barros, Todos Os Diretiso Reservardos!</p> 
-			</article>
-
+			<h1 class="fontzero">Copyright</h1>
+				<p class="al-center ">&copy; 2015 Rafael Barros.</p> 
 			<div class="clear"></div>
 		</section>
 	</footer>	
-	
 </body>
 </html>

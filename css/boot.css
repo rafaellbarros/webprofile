@@ -22,6 +22,7 @@ h1{font-size: 2em; font-weight: 300;}
 h2{font-size: 1.8em; font-weight: 400;}
 h3{font-size: 1.5em; font-weight: 500;}
 p{margin-bottom: 15px;}
+p{margin-top: 15px;}
 p:last-child{margin-bottom: 0;}
 ul{list-style: none;}
 img{float:left; border: none; width: 100%, max-width: 100;}
@@ -32,7 +33,8 @@ a img{border: 0;}
 /*BACKGROUND*/
 .bg-gray{background-color: #444444; color:#fff;}
 .bg-light{background-color: #E6E4D9; color:#444;}
-.bg-blue{background-color: #81BEF7; color:#fff;}
+.bg-blue{background-color: #3366FF; color:#fff;}
+.bg-black{background-color: black; color: #fff}
 
 /*FONT WEIGHT*/
 .font100{font-weight: 100 !important;}
@@ -48,12 +50,16 @@ a img{border: 0;}
 .fontsize2b{font-size: 2.5em;}
 .fontsize3{font-size: 3em;}
 .fontsize3b{font-size: 3.5em;}
+.fontsize4{font-size: 5em;}
+.fontsize4b{font-size: 5.5em;}
 
 /*CONTAINER*/
 .container{float: left; width: 100%;}
 .content{width: 80%; margin: 0 10%; padding: 40px 0;}
 
 .content-page{padding: 60px 0;}
+.content-top{width: 80%;margin: 0 10%; padding: 7px 0px;}
+.content-footer{width: 80%;margin: 0 10%; padding: 0px 0px;}
 
 .sectiontitle{float: left; width: 100%; margin-bottom: 30px; text-align: center;}
 .sectiontitle h1{font-size: 2.4em; font-weight: 300; margin-bottom: 10px;}
@@ -64,7 +70,7 @@ a img{border: 0;}
 .textshadown{text-shadow: 1px 1px 0 #ccc;}
 .boxshadow{-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);}
 .radius{-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
-.last{margin-right: 0;}
+.last{margin-right: 0 !important;}
 .clear{clear: both;}
 
 /*text align*/
@@ -87,9 +93,9 @@ a img{border: 0;}
 .box{width: auto; float: left;}
 .box-line{float: left; width: 100%;}
 
-.box-small{width: 22.15%; margin-right: 3%;}
-.box-medium{width: 30%; margin-right: 5%;}
-.box-large{width: 46.5%; margin-right: 7%;}
+.box-small{width: 20%; margin-right: 0%;}
+.box-medium{width: 40%; margin-right: 10%;}
+.box-large{width: 50.0%; margin-right: 7%;}
 .box-full{width: 100%; margin: 0;}
 
 /*SHORT ICONS*/
