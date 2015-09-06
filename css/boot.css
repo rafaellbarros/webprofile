@@ -16,16 +16,17 @@
 	--webkit-box-sizing: border-box;
 
 }
-
-body{background: #fbfbfb}
+html{position: relative; min-height: 100%;}
+body{background: #fbfbfb; margin: 0 0 100px;}
 h1{font-size: 2em; font-weight: 300;}
 h2{font-size: 1.8em; font-weight: 400;}
 h3{font-size: 1.5em; font-weight: 500;}
+p{white-space: pre-line;}
 p{margin-bottom: 15px;}
 p{margin-top: 15px;}
 p:last-child{margin-bottom: 0;}
 ul{list-style: none;}
-img{float:left; border: none; width: 100%, max-width: 100;}
+img{float:left; border: none;}
 small{font-weight: 0.75em; color: #555;}
 a{text-decoration: none;}
 a img{border: 0;}
@@ -42,6 +43,8 @@ a img{border: 0;}
 .font400{font-weight: 400 !important;}
 .font700{font-weight: 700 !important;}
 
+.fontblue{background-color: none;color: #3366FF;}
+
 /*FONT SIZE*/
 .fontzero{font-size: 0em !important;}
 .fontsize1{font-size: 1em;}
@@ -50,16 +53,16 @@ a img{border: 0;}
 .fontsize2b{font-size: 2.5em;}
 .fontsize3{font-size: 3em;}
 .fontsize3b{font-size: 3.5em;}
-.fontsize4{font-size: 5em;}
-.fontsize4b{font-size: 5.5em;}
+.fontsize4{font-size: 4.5em;}
+.fontsize4b{font-size: 5em;}
 
 /*CONTAINER*/
 .container{float: left; width: 100%;}
-.content{width: 80%; margin: 0 10%; padding: 40px 0;}
+.content{width: 80%; margin: 0 10%; padding: 20px 0;}
 
 .content-page{padding: 60px 0;}
 .content-top{width: 80%;margin: 0 10%; padding: 7px 0px;}
-.content-footer{width: 80%;margin: 0 10%; padding: 0px 0px;}
+
 
 .sectiontitle{float: left; width: 100%; margin-bottom: 30px; text-align: center;}
 .sectiontitle h1{font-size: 2.4em; font-weight: 300; margin-bottom: 10px;}
@@ -93,19 +96,18 @@ a img{border: 0;}
 .box{width: auto; float: left;}
 .box-line{float: left; width: 100%;}
 
-.box-small{width: 20%; margin-right: 0%;}
-.box-medium{width: 40%; margin-right: 10%;}
+.box-small{width: 15%; margin-right: 1%;}
+.box-small-2{width: 30%; margin-right: 1%;}
+.box-medium{width: 45%; margin-right: 0%; margin-left: 3%;}
 .box-large{width: 50.0%; margin-right: 7%;}
+.box-large-2{width: 40.0%; margin-left: 20%;}
 .box-full{width: 100%; margin: 0;}
 
 /*SHORT ICONS*/
-.shoticon{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+.shoticon{padding-left: 10%; background-position: center left; background-repeat: no-repeat; background-size: auto 100%;}
 .shoticon-sectiontitle{padding-left: 60px;}
 
-.shoticon-facebook{background-image: url(boot/social/facebook.png);}
-.shoticon-google{background-image: url(boot/social/google.png);}
-.shoticon-twitter{background-image: url(boot/social/twitter.png);}
-
-.shoticon-config{background-image: url(boot/icons/config.png);}
-.shoticon-mail{background-image: url(boot/icons/mail.png);}
-.shoticon-section{background-image: url(boot/icons/section.png);}
+.shoticon-github{background-image: url(../img/github-01.png);}
+.shoticon-linkedin{background-image: url(../img/linkedin.png);}
+.shoticon-googleplus{background-image: url(../img/googleplus.png);}
+.shoticon-mail{background-image: url(../img/gmail.png);}

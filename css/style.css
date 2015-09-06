@@ -20,3 +20,23 @@
 .main_tec_item_profile img{padding: 5px; width: 90%; margin: 0 10%; background: #eee; -webkit-border-radius: 80%; -moz-border-radius: 80%; border-radius: 80%; margin-bottom: 0px;}
 .main_tec_item_profile h1{font-size: 1.4em; margin-bottom: 15px;}
 .main_tec_item_profile .tagline{font-size: 1.0em;}
+
+.main_contact .title{font-size: 1.5em; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #ccc;}
+.main_contact p{margin-bottom: 1px;  padding: 2px 5;}
+.main_contact a{color: black;}
+.main_contact a:hover{text-decoration: underline; color: #2ECCFA;}
+
+/*RODAPÉ*/
+footer {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 100px; 
+}
+
+.main_footer{
+    position: relative; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 100px; 
+}
