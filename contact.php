@@ -45,7 +45,7 @@
 				</article>
 				<article class="main_tec_item_profile box box-medium">
 					<h2 class="title">Contact Details</h2>
-					<p class="shoticon shoticon-mail"><a title="Envie um E-mail" href="mailto:trafaelbarros.df@gmail.com">rafaelbarros.df@gmail.com</a></p>
+					<p class="shoticon shoticon-mail"><a title="Envie um E-mail" href="mailto:rafaelbarros.df@gmail.com">rafaelbarros.df@gmail.com</a></p>
 
 					<p class="shoticon shoticon-googleplus"><a title="Google Plus" target="_blank" rel="nofollow" href="https://plus.google.com/+RafaelBarrosBrazil">Google+</a></p>					
 					
