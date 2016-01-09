@@ -1,10 +1,24 @@
-# webprofile
-Creating a web profile page.
+# * Pt-Br
+## pefil web
+Criando minha página de perfil web.
+
+Tecnologias usadas:
+
+* **HTML5**
+* **CSS3**
+* **PHP**
+* **[pictonic.co]**
+
+
+# * En-Us
+# web profile
+Creating my web profile page.
 
 Technologies used:
 
 * **HTML5**
 * **CSS3**
-* **PHP** 
+* **PHP**
+* **[pictonic.co]**
 
-Later they will be added other related technologies studies and learning.
+[pictonic.co]: <https://pictonic.co/free>
