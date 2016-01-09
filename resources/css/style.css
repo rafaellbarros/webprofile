@@ -15,6 +15,7 @@
 .main_tec_item img{padding: 10px; width: 80%; margin: 0 10%; background: #eee; -webkit-border-radius: 60%; -moz-border-radius: 60%; border-radius: 60%; margin-bottom: 15px;}
 .main_tec_item h1{font-size: 1.4em; margin-bottom: 15px;}
 .main_tec_item .tagline{font-size: 1.0em;}
+.main_tec_item:hover{background: #000000; color: #FFF; -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);}
 
 .main_tec_item_profile{padding: 0px 30px; margin-bottom: 0px; min-height: 0px;}
 .main_tec_item_profile img{padding: 5px; width: 90%; margin: 0 10%; background: #eee; -webkit-border-radius: 80%; -moz-border-radius: 80%; border-radius: 80%; margin-bottom: 0px;}
@@ -28,15 +29,15 @@
 
 /*RODAPÉ*/
 footer {
-    position: absolute; 
-    bottom: 0px; 
-    width: 100%; 
-    height: 100px; 
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
 }
 
 .main_footer{
-    position: relative; 
-    bottom: 0px; 
-    width: 100%; 
-    height: 100px; 
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
 }
